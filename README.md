@@ -1,5 +1,5 @@
-# AREP-Lab7-Microservicios
- 
+## AREP-Lab7-Microservicios
+ This project focuses on the use of API gateway, S3 and EC2, aws services that will be interrelated, giving rise to a small and simple application of microservices.
 
 ## Getting Started
 
@@ -35,8 +35,29 @@ mvn javadoc:javadoc
 ```
 
 ## MicroserviceArchitecture 
-
+ ![](https://github.com/Elan-MarMEn/AREP-Lab7-Microservicios/blob/main/img/Architecture.PNG)
+ 
 ## Working Report
+Previously, a container was mounted in an EC2 service with the functional backend application, which has an endpoint that will be accessed through an API gateway service.
+
+AWS:
+> ![](https://github.com/Elan-MarMEn/AREP-Lab7-Microservicios/blob/main/img/API%20Gateway.PNG)
+WEB:
+> ![](https://github.com/Elan-MarMEn/AREP-Lab7-Microservicios/blob/main/img/API%20Gateway2.PNG)
+
+This second endpoint will be consumed from a Node js application that will be mounted on an S3 service which will provide a user-friendly web page:
+
+AWS:
+
+> ![](https://github.com/Elan-MarMEn/AREP-Lab7-Microservicios/blob/main/img/S3%20-%20index.PNG)
+
+WEB:
+
+> ![](https://github.com/Elan-MarMEn/AREP-Lab7-Microservicios/blob/main/img/index.PNG)
+ 
+ 
+ 
+ 
 
 ## Video: Sample Running Remote
 
